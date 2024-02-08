@@ -1,5 +1,5 @@
 clear;close all;
-im=imread('C:\Users\DELL\Documents\Kinect Studio\images\15fps\1.jpg');
+im=imread('Path to test jpg image');
 fim=mat2gray(im);
 level=graythresh(fim);
 bwfim=im2bw(fim,level);
